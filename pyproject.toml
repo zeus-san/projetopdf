@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "image-pdf"
+version = "0.1.0"
+description = ""
+authors = ["zeus-san <novavidavariedades@gmail.com>"]
+readme = "README.md"
+packages = [{include = "image_pdf"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^9.3.0"
+fpdf2 = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
