@@ -3,6 +3,7 @@ from fpdf import FPDF
 from io import BytesIO
 from PIL import Image
 
+
 class image_to_pdf:
     def __init__(self, lista_imagens: list):
         self.lista_imagens = lista_imagens
